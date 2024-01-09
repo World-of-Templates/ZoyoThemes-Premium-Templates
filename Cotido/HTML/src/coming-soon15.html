@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include("partials/title-meta.html", {"title": "Opsoon"})
+
+    @@include("partials/head-css.html")
+</head>
+
+<body>
+
+    <!-- =========== Main Section Start =========== -->
+    <section class="relative h-full lg:h-screen p-10 flex flex-col items-center justify-center bg-fixed bg-no-repeat bg-center bg-cover bg-[url(../images/bg-12.jpg)]">
+        <div class="absolute bg-black/70 inset-0"></div>
+        <div class="container">
+
+            <div class="justify-center items-center flex relative text-center">
+                <div class="w-full">
+                    <a href="" class="flex items-center justify-center mx-auto mb-12">
+                        <img src="assets/images/light-logo.png" class="h-12"/>
+                    </a>
+                    
+                    <div class="">
+                        <h1 class="text-3xl lg:text-5xl text-white tracking-normal leading-normal font-semibold mt-4">We are coming soon</h1>
+                        <p class="text-base text-white mt-7 max-w-md mx-auto text-center">Our website is under construction. We'll be here soon with our new awesome site.</br></p>
+                    </div>
+
+                    <div class="mt-10">
+                        <div class="max-w-xl mx-auto">
+                            <div class="backdrop-blur-2xl bg-white/20 rounded-md max-w-xl mx-auto">
+                                <form class="w-full flex items-center justify-center mt-7">
+                                    <input type="email" name="email" id="email" class="w-full p-4 border-0 focus:outline-none focus:ring-0 text-sm text-white placeholder:text-white bg-transparent" placeholder="Enter Your Email" autocomplete="off">
+                                    <button class="py-2 px-6 me-2 border-0 text-white font-semibold text-sm rounded-md backdrop-blur-2xl bg-primary/60 hover:bg-primary hover:text-white transition-all duration-500">
+                                        <div class="flex items-center justify-center gap-1">
+                                            <span>Submit</span>
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </div>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="relative mt-24 md:mt-12">
+                        <h6 class="text-xl text-white text-center mb-4">Follow Us:</h6>
+                        <ul class="flex flex-wrap items-center justify-center gap-3">
+                            <li>
+                                <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center text-white backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid text-base rounded-xl transition-all duration-500 group hover:bg-primary hover:text-white"><i class="mdi mdi-facebook text-xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center text-white backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid text-base rounded-xl transition-all duration-500 group hover:bg-primary hover:text-white"><i class="mdi mdi-instagram text-xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center text-white backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid text-base rounded-xl transition-all duration-500 group hover:bg-primary hover:text-white"><i class="mdi mdi-skype text-xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center text-white backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid text-base rounded-xl transition-all duration-500 group hover:bg-primary hover:text-white"><i class="mdi mdi-linkedin text-xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center text-white backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid text-base rounded-xl transition-all duration-500 group hover:bg-primary hover:text-white"><i class="mdi mdi-twitter text-xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center text-white backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid text-base rounded-xl transition-all duration-500 group hover:bg-primary hover:text-white"><i class="mdi mdi-youtube text-xl"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="lg:fixed bottom-0 start-0 end-0 py-7">
+            <div class="container">
+                <p class="text-base font-medium text-center text-white">
+                    <script>document.write(new Date().getFullYear())</script>
+                    © Cotido - <a href="#">Design crafted <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+                            stroke-linecap="round" stroke-linejoin="round" data-lucide="heart" class="lucide lucide-heart inline h-4 w-4 text-red-500 fill-red-500">
+                            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                    </svg> Zoyothemes.com </a>
+                </p>
+            </div>
+        </footer>
+
+    </section>
+    <!-- =========== Main Section End =========== -->
+
+    @@include("partials/script-file.html")
+    
+    </body>
+</html>

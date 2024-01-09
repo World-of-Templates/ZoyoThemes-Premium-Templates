@@ -1,0 +1,71 @@
+/* 
+* Theme Name: Palexi - Onepage Business Multipurpose Template
+* Created by: Themesdesign
+* Version: 1.0.0
+* File: Template default color
+*/
+
+#topnav .has-submenu.active .submenu li.active > a, 
+#navigation li.active a, .text-custom, .filter-list a.active, 
+.filter-list a:hover,  .testimonial .quote .quote-mark, .team-post, .pricing-box .lable .best, .blog .blog-meta a, .blog-more {
+    color: #667add !important;
+}
+#topnav .navigation-menu > li .submenu li a:hover, 
+#topnav .navigation-menu .has-submenu .submenu > li:hover > a, 
+#topnav .navigation-menu > li:hover > a {
+    color: #667add !important;
+}
+#topnav .navbar-toggle.open span:hover, .bg-custom, .btn-custom, .about-title-border {
+    background-color: #667add !important;
+}
+
+.btn-custom {
+    transition: all 0.4s;
+    color: #fff !important;
+    border: 2px solid #667add;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    box-shadow: 0 20px 50px 0 rgba(26,38,74,.25);
+    background-color: #667add !important;
+    border: 2px solid #667add !important;
+}
+.service-desc a {
+    color: #667add;
+}
+.filter-list a.active, .filter-list a:hover, .testimonial .quote .quote-mark {
+    color: #667add !important;
+}
+.play-icon-circle {
+    background-color: transparent;
+    border: 3px solid #667add !important;
+}
+.home_small_title_border {
+    height: 2px;
+    width: 70px;
+    background-color: #667add !important;
+}
+@media (min-width: 992px) {
+    #topnav .navigation-menu > li .submenu li a:hover,#topnav .navigation-menu .has-submenu .submenu > li:hover > a,#topnav .navigation-menu > li:hover > a,
+    #topnav .navigation-menu > li:hover > .menu-arrow{
+      color: #667add !important;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #topnav .navigation-menu > li > a:hover,
+    #topnav .navigation-menu > li .submenu li a:hover,
+    #topnav .navigation-menu > li.has-submenu.open > a,
+    #topnav .menu-extras .menu-item .cart > a:hover,
+    #topnav .menu-extras .menu-item .search > a:hover,#topnav .navigation-menu .submenu.open .has-submenu.open > a,#topnav .has-submenu.active a{
+      color: #667add !important;
+    }
+  }

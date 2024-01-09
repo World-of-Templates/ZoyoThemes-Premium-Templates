@@ -1,0 +1,56 @@
+/* 
+* Theme Name: Palexi - Onepage Business Multipurpose Template
+* Created by: Themesdesign
+* Version: 1.0.0
+* File: Template default color
+*/
+
+#topnav .has-submenu.active .submenu li.active > a, 
+#navigation li.active a, .text-custom, .filter-list a.active, 
+.filter-list a:hover, .testimonial .quote .quote-mark, .team-post, .pricing-box .lable .best, .blog .blog-meta a, .blog-more {
+    color: #ff6872 !important;
+}
+#topnav .navigation-menu > li .submenu li a:hover, 
+#topnav .navigation-menu .has-submenu .submenu > li:hover > a, 
+#topnav .navigation-menu > li:hover > a {
+    color: #ff6872 !important;
+}
+#topnav .navbar-toggle.open span:hover, .bg-custom, .btn-custom, .about-title-border {
+    background-color: #ff6872 !important;
+}
+.btn-custom {
+    transition: all 0.4s;
+    color: #fff !important;
+    border: 2px solid #ff6872;
+}
+.service-desc a {
+    color: #ff6872;
+}
+.filter-list a.active, .filter-list a:hover, .testimonial .quote .quote-mark {
+    color: #ff6872 !important;
+}
+.play-icon-circle {
+    background-color: transparent;
+    border: 3px solid #ff6872 !important;
+}
+.home_small_title_border {
+    height: 2px;
+    width: 70px;
+    background-color: #ff6872 !important;
+}
+@media (min-width: 992px) {
+    #topnav .navigation-menu > li .submenu li a:hover,#topnav .navigation-menu .has-submenu .submenu > li:hover > a,#topnav .navigation-menu > li:hover > a,
+    #topnav .navigation-menu > li:hover > .menu-arrow{
+      color: #ff6872;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #topnav .navigation-menu > li > a:hover,
+    #topnav .navigation-menu > li .submenu li a:hover,
+    #topnav .navigation-menu > li.has-submenu.open > a,
+    #topnav .menu-extras .menu-item .cart > a:hover,
+    #topnav .menu-extras .menu-item .search > a:hover,#topnav .navigation-menu .submenu.open .has-submenu.open > a,#topnav .has-submenu.active a{
+      color: #ff6872 !important;
+    }
+  }

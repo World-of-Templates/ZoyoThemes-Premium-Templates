@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include("partials/title-meta.html", {"title": "Cotido"})
+
+    @@include("partials/head-css.html")
+</head>
+
+<body>
+    
+    <!-- =========== Main Section Start =========== -->
+    <section class="relative h-full lg:h-screen flex flex-col items-center justify-center bg-fixed bg-no-repeat bg-center bg-cover bg-[url(../images/bg-1.jpg)]" id="home">
+        <div class="absolute inset-0 w-full h-full bg-dark/80"></div>
+        <div class="container">
+
+            <a href="" class="flex items-center justify-center mb-10">
+                <img src="assets/images/light-logo.png" alt="" class="h-14">
+            </a>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16">
+
+                <div class="flex flex-wrap items-center justify-center relative">
+                    <div class="items-center justify-center rounded-lg text-white inline-flex flex-col px-5 py-2">
+                        <span id="days" class="text-3xl lg:text-5xl font-semibold items-center justify-center flex rounded-2xl backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid h-20 w-20 lg:h-28 lg:w-28">00</span>
+                        <span class="text-xl mt-5">Days</span>
+                    </div>
+
+                    <div class="items-center justify-center rounded-lg text-white inline-flex flex-col px-5 py-2">
+                        <span id="hours" class="text-3xl lg:text-5xl font-semibold items-center justify-center flex rounded-2xl backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid h-20 w-20 lg:h-28 lg:w-28">00</span>
+                        <span class="text-xl mt-5">Hours</span>
+                    </div>
+
+                    <div class="items-center justify-center rounded-lg text-white inline-flex flex-col px-5 py-2">
+                        <span id="minutes" class="text-3xl lg:text-5xl font-semibold items-center justify-center flex rounded-2xl backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid h-20 w-20 lg:h-28 lg:w-28">00</span>
+                        <span class="text-xl mt-5">Minutes</span>
+                    </div>
+
+                    <div class="items-center justify-center rounded-lg text-white inline-flex flex-col px-5 py-2">
+                        <span id="seconds" class="text-3xl lg:text-5xl font-semibold items-center justify-center flex rounded-2xl backdrop-blur-xl bg-white/20 border-2 border-white/40 border-solid h-20 w-20 lg:h-28 lg:w-28">00</span>
+                        <span class="text-xl mt-5">Seconds</span>
+                    </div>
+                </div>
+
+                <div class="flex-wrap items-center justify-center">
+                    <h1 class="md:text-5xl/tight text-3xl text-white tracking-normal leading-normal font-bold">Get ready to experience a wave of amazing features as we gear up for an upcoming launch. Stay tuned for the big reveal!</h1>
+                </div>
+                
+            </div>
+
+            <div class="flex justify-center mt-11">
+                <div class="relative mt-10">
+                    <h6 class="text-xl text-white text-center mb-4">Follow Us:</h6>
+                    <ul class="flex flex-wrap items-center gap-3">
+                        <li>
+                            <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center backdrop-blur-2xl bg-white/20 text-base rounded-xl transition-all duration-500 group hover:bg-primary/60"><i class="mdi mdi-facebook text-xl text-white group-hover:text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center backdrop-blur-2xl bg-white/20 text-base rounded-xl transition-all duration-500 group hover:bg-primary/60"><i class="mdi mdi-instagram text-xl text-white group-hover:text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center backdrop-blur-2xl bg-white/20 text-base rounded-xl transition-all duration-500 group hover:bg-primary/60"><i class="mdi mdi-skype text-xl text-white group-hover:text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center backdrop-blur-2xl bg-white/20 text-base rounded-xl transition-all duration-500 group hover:bg-primary/60"><i class="mdi mdi-linkedin text-xl text-white group-hover:text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center backdrop-blur-2xl bg-white/20 text-base rounded-xl transition-all duration-500 group hover:bg-primary/60"><i class="mdi mdi-twitter text-xl text-white group-hover:text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" target="_blank" class="h-12 w-12 inline-flex items-center justify-center backdrop-blur-2xl bg-white/20 text-base rounded-xl transition-all duration-500 group hover:bg-primary/60"><i class="mdi mdi-youtube text-xl text-white group-hover:text-white"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer class="fixed bottom-0 start-0 end-0 py-7">
+            <div class="container">
+                <p class="text-base font-medium text-center text-gray-400">
+                    <script>document.write(new Date().getFullYear())</script>
+                    © Cotido - <a href="#">Design crafted <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+                            stroke-linecap="round" stroke-linejoin="round" data-lucide="heart" class="lucide lucide-heart inline h-4 w-4 text-red-500 fill-red-500">
+                            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                    </svg> Zoyothemes.com </a>
+                </p>
+            </div>
+        </footer>
+
+    </section>
+    <!-- =========== Main Section End =========== -->
+    
+    @@include("partials/script-file.html")
+    </body>
+</html>

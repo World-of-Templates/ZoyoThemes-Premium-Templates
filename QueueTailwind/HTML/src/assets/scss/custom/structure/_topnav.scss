@@ -1,0 +1,84 @@
+/*********************************/
+/*             Menu              */
+/*===============================*/
+.navbar-custom {
+    @apply fixed top-0 start-0 end-0 z-999 bg-transparent py-5 transition-all duration-500 font-nunito bg-white lg:bg-transparent;
+    .navigation {
+        @apply w-full m-0;
+        .navbar-nav {
+            @apply flex flex-col lg:flex-row;
+            .nav-link {
+                @apply block py-2 px-4 text-dark uppercase font-bold text-sm tracking-wide hover:text-blue-500;
+            }
+            .active {
+                .nav-link {
+                    @apply text-blue-500;
+                }
+            }
+        }
+    }
+    .nav-light {
+        .navbar-nav {
+            .nav-link {
+                @apply text-white #{!important};
+            }
+            .active {
+                .nav-link {
+                    @apply text-blue-500 #{!important};
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        @apply me-12 p-0 text-dark font-bold text-2xl;
+    }
+    .menu-social {
+        .login-btn-primary {
+            @apply hidden;
+        }
+        .login-btn-light {
+            @apply inline-block;
+        }
+    }
+    &.is-sticky {
+        @apply bg-white shadow;
+        .navbar-brand {
+            .l-dark {
+                @apply inline-block;
+            }
+            .l-light {
+                @apply hidden;
+            }
+        }
+        .menu-social {
+            .login-btn-primary {
+                @apply inline-block;
+            }
+            .login-btn-light {
+                @apply hidden;
+            }
+        }
+        .logo {
+            @apply text-dark #{!important};
+        }
+        .nav-light {
+            .nav-item {
+                .nav-link {
+                    @apply text-dark #{!important};
+                }
+            }
+            .active {
+                .nav-link {
+                    @apply text-blue-500 #{!important};
+                }
+            }
+        }
+
+    }
+    &.is-sticky.navbar-custom {
+        @apply shadow-[0px_10px_33px_rgba(0,0,0,0.1)];
+    }
+    .logo {
+        @apply text-white #{!important};
+    }
+}

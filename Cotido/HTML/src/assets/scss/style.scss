@@ -1,0 +1,20 @@
+/* 
+Template Name: Cotido - Tailwind CSS Coming Soon Template
+Version: 1.0.0
+Author: Zoyothemes
+Email: zoyothemes@gmail.com
+File: Main Css File
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Font
+@import "custom/fonts";
+
+// General
+@import "custom/general";
+
+// Pages
+@import "custom/pages/helper";

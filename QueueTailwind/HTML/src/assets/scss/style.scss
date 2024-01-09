@@ -1,0 +1,33 @@
+/* 
+Template Name: Queue - Tailwind CSS Landing Page Template
+Version: 1.0.0
+Author: Zoyothemes
+Email: zoyothemes@gmail.com
+File: Main Css File
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Font
+@import "custom/fonts";
+
+// general
+@import "custom/general";
+
+// components
+@import "components/buttons";
+
+// structure
+@import "custom/structure/topnav";
+@import "custom/structure/footer";
+
+// pages
+@import "custom/pages/helper";
+@import "custom/pages/gallery";
+@import "custom/pages/contact";
+
+// Plugins
+@import "custom/plugins/testi";
+
