@@ -1,0 +1,37 @@
+//
+// _footer.scss
+//
+footer {
+    padding: 60px 0;
+    position: relative;
+    color: rgba($gray-500, 0.7);
+    .logo-footer {
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .footer-head {
+        letter-spacing: 1px;         
+    }
+    .text-foot {
+        color: rgba($gray-500, 0.7);
+    }
+    .footer-list {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 8px;
+            a{
+                transition: all 0.5s ease;
+                &:hover {
+                    color: rgba($primary, 0.7);
+                }
+            }   
+            &:last-child{
+                margin-bottom: 0;
+            }         
+        }
+    }   
+    &.footer-bar {
+        border-top: 1px solid rgba($gray-600, 0.5);
+    }
+}

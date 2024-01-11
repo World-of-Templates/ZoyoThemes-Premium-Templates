@@ -1,0 +1,13 @@
+//
+// _blog.scss
+//
+.blog-post {
+    .content {
+        .title {
+            transition: all 0.5s ease;
+            &:hover {
+                color: $primary !important;
+            }
+        }
+    }
+}

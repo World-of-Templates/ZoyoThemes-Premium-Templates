@@ -1,0 +1,89 @@
+//
+// home.scss
+//
+@mixin home-common {
+    background-size: cover;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+.bg-half-260 {
+    padding: 260px 0;    
+    @include home-common();
+}
+.bg-home-three {
+    padding: 180px 0 420px;    
+    @include home-common();
+}
+.bg-half-170 {
+    padding: 170px 0;    
+    @include home-common();
+}
+.home-title h5{
+    font-size: 15px !important;
+    letter-spacing: 1.8px;
+}
+
+//Home-5
+.cover-user {
+    .container-fluid{
+        max-width: 100%;
+        overflow-x: hidden;
+        .padding-less.img {
+            background: scroll center no-repeat;
+            background-size: cover;
+            position: absolute;
+            height: 100%;
+        }
+    }    
+    .cover-user-img {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .cover-user {
+        .cover-user-img{
+            padding: 0px 10% !important;
+        }  
+    }
+}
+@media (min-width: 769px) {
+    .cover-user {
+        .cover-user-img{
+            padding: 0px 20%;
+        }  
+    }
+}
+
+@media (max-width: 768px) {
+    .cover-user {
+        .padding-less {
+            position: relative !important;
+            height: 400px !important;
+        }
+        .cover-user-content {
+            text-align: left !important;
+        }    
+        .cover-user-img {
+            align-items: start !important;
+            height: auto !important;
+        }
+        .cover-my-30 {
+            margin: 30px 0;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .bg-half-170, 
+    .bg-half-260 {        
+        padding: 150px 0;
+        height: auto;
+    }
+
+    .bg-home-three {        
+        padding: 150px 0 350px;
+        height: auto;
+    }
+}

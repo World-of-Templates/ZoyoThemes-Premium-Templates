@@ -1,0 +1,83 @@
+//
+// variables.scss
+//
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap');
+
+// Color
+$white:                     #ffffff;
+
+$primary:                   #009e7f; //7d58fe rgb(0, 158, 127);
+$secondary:                 #727981;
+$success:                   #25b865;
+$warning:                   #e49e3d;
+$info:                      #41b2c4;
+$danger:                    #d13b4c;
+$dark:                      #3c4858;
+$black:                     #161c2d;
+$muted:                     #8492a6;
+$light:                     #f9fafc;
+$blue:                      #506efa;
+
+
+// Gray
+$gray-100:                  #f8f9fa;
+$gray-200:                  #e9ecef;
+$gray-300:                  #dee2e6;
+$gray-400:                  #ced4da;
+$gray-500:                  #adb5bd;
+$gray-600:                  #6c757d; 
+$gray-700:                  #495057;
+
+//Custom
+$footer:                    lighten($dark, 5%);
+
+// Overlay
+$overlay:                   rgba($dark, 0.65);
+$gradident-overlay:         rgba($primary, 0.6);
+$bg-overlay-white:          rgba($white, 0.8);
+$bg-overlay-dark:           rgba($black, 0.75);
+
+// Body Background
+$shadow:                    0 0 3px rgba($black,.15);
+$shadow-lg:                 0 10px 25px rgba($dark, 0.15);
+
+// Base font
+$font-size-base:            16px;
+$menu-font-size:            14px;
+$logo-font-size:            22px;
+
+$font-family-base:          'Nunito', sans-serif;
+$font-family-secondary:     'Nunito', sans-serif;
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "warning": $warning,
+    "info": $info,
+    "danger": $danger,
+    "dark": $dark,
+    "muted": $muted,
+    "light": $light,
+    "footer": $footer,
+    "blue": $blue,
+);
+
+$heading-font-sizes: (
+    "h1": 42px,
+    "h2": 36px,
+    "h3": 30px,
+    "h4": 24px,
+    "h5": 20px,
+    "h6": 16px,
+);
+
+$display-font-sizes: (
+    "display-1": 80px,
+    "display-2": 72px,
+    "display-3": 64px,
+    "display-4": 56px,
+    "display-5": 40px,
+)

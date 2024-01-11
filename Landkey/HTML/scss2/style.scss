@@ -1,0 +1,42 @@
+/* Template Name: Pacto - Responsive Landing Template
+   Author: Shreethemes
+   Email: Shreethemes@gmail.com
+   Website: http://www.shreethemes.in
+   Version: 1.0.0
+   Created: April 2020
+   File Description: Main Css file of the template
+*/
+
+/*********************************/
+/*         INDEX                 */
+/*================================
+ *     01.  Variables            *
+ *     02.  General              *
+ *     03.  Helper               *
+ *     04.  Bootstrap Custom     *
+ *     05.  Components           *
+ *     06.  Menu                 *
+ *     07.  Home / Landing       *
+ *     08.  Features / Services  *
+ *     09.  CTA                  *
+ *     10.  Work                 *
+ *     11.  Prising / Plans      *
+ *     12.  Blog                 *
+ *     13.  Contact              *
+ *     14.  Footer               *
+ ================================*/
+
+@import "variables";
+@import "general";
+@import "helper";
+@import "bootstrap-custom";
+@import "components";
+@import "menu";
+@import "home";
+@import "services";
+@import "cta";
+@import "work";
+@import "plans";
+@import "blog";
+@import "contact";
+@import "footer";

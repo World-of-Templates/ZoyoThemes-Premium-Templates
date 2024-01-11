@@ -1,0 +1,163 @@
+//
+// _plans.scss
+//
+.pricing-table {
+    .pricing-plan {
+        .pricing-features {
+            .check-icon {
+                background-color: rgba(0,155,114,.1);
+                width: 30px;
+                height: 30px;
+            }
+            li {
+                padding: 15px 0;
+                &:last-child {
+                    border-bottom: 1px solid $gray-200;
+                }
+            }
+        }
+        .icon-ex-md {
+            background-color: rgba(0,155,114,.1);
+            border-radius: 50%;
+        }
+        &.business-plan {
+            .pricing-features {
+                li {
+                    border-top: 1px solid $gray-400;
+                    &:last-child {
+                        border-bottom: 1px solid $gray-400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Toggle Button */
+[class *='btn--toggle'] {
+    margin-bottom: 35px;
+    border: 1px solid #e5e5e5;
+    padding: 4px;
+    border-radius: 500px;
+    .switch {
+        display: flex;
+        width: 233px;
+        height: 33px;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .switch p {
+        flex: 50%;
+        max-width: 50%;
+        margin: 0;
+        text-align: center;
+        transition: .4s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: $dark;
+        text-transform: uppercase;
+    }
+    
+    .switch input[type="checkbox"] {
+        display: none;
+        &:checked{
+            ~ .slider{
+                transform: translateX(100%);
+                background: $primary;
+            }
+            ~ p{
+                color: $dark;
+            }
+        }
+    }
+    
+    .slider {
+        position: absolute;
+        width: 50%;
+        left: 0;
+        top: 0;
+        height: 100%;
+        z-index: -1;
+        background: $primary;
+        border-radius: 500px;
+        transform: translateX(0);
+        transition: .4s;
+    }
+}
+
+
+
+
+.custom-tab-wrapper{
+    &.monthly{
+        [data-monthly]{
+            display: inline-block;
+            &:before{
+                content: attr(data-monthly);
+                visibility: visible;
+                display: inline-block;
+            }
+        }
+        .price-default{
+            display: none;
+        }
+    }
+    &.yearly{
+        [data-yearly]{
+            display: inline-block;
+            &:before{
+                content: attr(data-yearly);
+                visibility: visible;
+                display: inline-block;
+            }
+        }
+        .price-default{
+            display: none;
+        }
+    }
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #eaedf2;
+    border-radius: .3125rem;
+    .card-body {
+        flex: 1 1 auto;
+        padding: 2.25rem;
+    }
+    .bg-success-alt {
+        background-color: rgba(0,155,114,.1);
+        width: 20px;
+        height: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+    .bg-success-alt {
+        background-color: rgba(0,155,114,.1);
+        width: 20px;
+        height: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+    .bg-danger-alt {
+        background-color: rgba(220,53,69,.1);
+        width: 20px;
+        height: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+    .bg-white-alt {     
+        background-color: $white;
+    }
+}

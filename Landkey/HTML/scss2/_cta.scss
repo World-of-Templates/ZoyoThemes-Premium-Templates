@@ -1,0 +1,58 @@
+//
+// cta.scss
+//
+//home button
+.watch-video {
+    a {
+        &.watch {
+            font-size: 14px;
+            font-weight: 500;
+    
+        }
+        .play-icon-circle {
+            height: 36px;
+            width: 36px;
+            background-color: $primary;
+            line-height: 36px;
+            &.play-iconbar {
+                font-size: 16px;
+            }
+            &.play {
+                top: 77%;
+            }
+        }
+    }
+}
+
+//cta
+.bg-cta {
+    padding: 150px 0;
+}
+
+.play-icon {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 0;
+    left: 0;
+    text-align: center;
+    i {
+        height: 85px;
+        width: 85px;
+        line-height: 85px;
+        -webkit-text-stroke: 2px $primary;
+        -webkit-text-fill-color: transparent;  
+        display: inline-block;
+        &:hover {
+            -webkit-text-stroke: 2px $primary;
+            -webkit-text-fill-color: $primary;
+        }
+    }
+}
+
+//Iframe size
+.mfp-iframe-holder {
+    .mfp-content {
+        max-width: 1440px;
+    }
+}

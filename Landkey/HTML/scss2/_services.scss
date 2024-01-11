@@ -1,0 +1,74 @@
+//
+// .scss
+//
+.service-wrapper {
+    transition: all 0.5s ease;
+    .icon {
+        width: 60px;
+        height: 60px;
+        line-height: 45px;
+        transition: all 0.5s ease;
+    }
+    .content {
+        .title {
+            transition: all 0.5s ease;
+            font-weight: 500;
+            font-size: 24px !important;
+        }
+    }
+    // .big-icon {
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: 0;
+    //     opacity: 0.05;
+    //     transition: all 0.5s ease;
+    // }
+    &:hover {
+        box-shadow: $shadow-lg !important;
+        background: $white;
+        transform: translateY(-8px);
+        border-color: transparent !important;
+        .icon {
+            background: rgba($primary, 1) !important;
+            color: $white !important;
+            transform: rotate(0);
+        }
+        // .big-icon {
+        //     z-index: -1;
+        //     opacity: 0.1;
+        //     font-size: 200px;
+        // }
+    }
+}
+
+// New Web Services
+
+.masonry-with-columns {
+    .testimonial-card {
+        margin-bottom: 30px;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 30px 30px 35px 35px;
+        .card-content p {
+            color: #1f1f1f;
+            font-family: 'Rubik', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: -0.1px;
+            line-height: 32px;
+            padding-right: 24px;
+        }
+        .card-content {
+            margin-bottom: 34px;
+        }
+    }
+}
+.image-1 {
+    top: 0%;
+    left: auto;
+    right: 2%;
+}
