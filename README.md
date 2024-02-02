@@ -25,3 +25,8 @@
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Crypto Currency Template                                                                                                                                                        | Responsive Creative Landing Template                                                                                                                                               |
 | [![Aeshio](https://template.bikinwebskuy.com/ZY/zSupportImages/aeshio.png)](https://template.bikinwebskuy.com/ZY/Aeshio/HTML) | [![Landkey](https://template.bikinwebskuy.com/ZY/zSupportImages/landkey.png)](https://template.bikinwebskuy.com/ZY/Landkey/HTML) |
+
+| Authea                                                                                                                             |
+|------------------------------------------------------------------------------------------------------------------------------------|
+| Auth Pages Tailwind Template                                                                                                       |
+| [![Authea](https://template.bikinwebskuy.com/ZY/zSupportImages/authea.png)](https://template.bikinwebskuy.com/ZY/Authea/HTML/dist) |
