@@ -26,7 +26,12 @@
 | Crypto Currency Template                                                                                                                                                        | Responsive Creative Landing Template                                                                                                                                               |
 | [![Aeshio](https://template.bikinwebskuy.com/ZY/zSupportImages/aeshio.png)](https://template.bikinwebskuy.com/ZY/Aeshio/HTML) | [![Landkey](https://template.bikinwebskuy.com/ZY/zSupportImages/landkey.png)](https://template.bikinwebskuy.com/ZY/Landkey/HTML) |
 
-| Authea                                                                                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------|
-| Auth Pages Tailwind Template                                                                                                       |
-| [![Authea](https://template.bikinwebskuy.com/ZY/zSupportImages/authea.png)](https://template.bikinwebskuy.com/ZY/Authea/HTML/dist) |
+| Authea                                                                                                                             | Prizo |
+|------------------------------------------------------------------------------------------------------------------------------------|---|
+| Auth Pages Tailwind Template                                                                                                       | Pricing Table Tailwind Template | 
+| [![Authea](https://template.bikinwebskuy.com/ZY/zSupportImages/authea.png)](https://template.bikinwebskuy.com/ZY/Authea/HTML/dist) | [![Prizo](https://template.bikinwebskuy.com/ZY/zSupportImages/prizo.png)](https://template.bikinwebskuy.com/ZY/Prizo/HTML/dist) |
+
+| Blogza |
+| --- |
+| Blog Page Tailwind Template |
+| [![Blogza](https://template.bikinwebskuy.com/ZY/zSupportImages/blogza.png)](https://template.bikinwebskuy.com/ZY/Blogza/HTML/dist) |

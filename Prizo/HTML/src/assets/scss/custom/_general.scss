@@ -1,0 +1,27 @@
+/*********************************/
+/*             General           */
+/*===============================*/
+html {
+    @apply relative scroll-smooth;
+}
+
+body {
+    @apply font-poppins text-[15px] text-black;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    @apply font-poppins leading-normal font-semibold;
+}
+
+p {
+    @apply leading-relaxed;
+    @apply font-poppins;
+}
+
+::selection {
+    @apply bg-primary/70 text-white;
+}
+
+.check-with-label:checked + .label-for-check {
+    @apply text-white #{!important};
+}
